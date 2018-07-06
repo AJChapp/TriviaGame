@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trivia Game</title>
+    
+    <!-- css reset ↓ -->
+    <link rel="stylesheet" type="text/css" href="./css/Normalize.css">
+    <!-- my css ↓ -->
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <!-- jquery ↓ -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous" defer></script>
+    <!-- my js ↓ -->
+    <script src="./javascript/app.js" defer></script>
+</head>
+<body>
+    <div id="content">
+
+        <div id="title">
+            <h1>Quiz Game</h1>
+            <h3>Basic Math Edition</h3>
+            <h4>Time Remaining:<span id="timeRemaining"></span></h4>
+            <p>Failure to complete the quiz on time will result in an automatic zero</p>
+        </div> 
+        
+        
+        
+        <div class="question">
+            <div class="questionHolder">
+                <h4 class="questionHead" id="headQ1">1. What is 1+1?    </h4>
+            </div>
+            
+            <div class="answerHolder" id="q1">
+                <button class="wrong1 answer">4</button>
+                <button class="wrong1 answer">3</button>
+                <button class="wrong1 answer">1</button>
+                <button class="right1 answer">2</button>
+            </div>
+        </div>
+        
+        <div class="question">
+            <div class="questionHolder">
+                <h4 class="questionHead" id="headQ2">2. What is 1+3?    </h4>
+            </div>
+            
+            <div class="answerHolder" id="q2">
+                <button class="wrong2 answer">5</button>
+                <button class="right2 answer">4</button>
+                <button class="wrong2 answer">6</button>
+                <button class="wrong2 answer">3</button>
+            </div>
+        </div>
+        
+        <div class="question">
+            <div class="questionHolder">
+                <h4 class="questionHead" id="headQ3">3. What is 2+5?    </h4>
+            </div>
+            
+            <div class="answerHolder" id="q3">
+                <button class="wrong3 answer">8</button>
+                <button class="wrong3 answer">6</button>
+                <button class="right3 answer">7</button>
+                <button class="wrong3 answer">9</button>
+            </div>
+        </div>
+        
+        <button id="submit">Get Score</button>
+        
+    </div>
+        
+        
+        
+    </body>
+    </html>
